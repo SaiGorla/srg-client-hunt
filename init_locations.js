@@ -2,14 +2,14 @@
 
 export default [
     {
-   Name: "Yayy ! Colden Pond One",
+   Name: "B D Owens Library",
    North: 30.351133,
    West: -44.882717,
    South: 30.351049,
    East: -44.882375,
    Notes: '',
    Attachments: '',
-   'Quest-Location': 'Colden Pond One',
+   'Quest-Location': 'B D Owens Library',
  },
  {
    Name: 'Bearcat Stadium',
