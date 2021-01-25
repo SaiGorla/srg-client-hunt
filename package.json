@@ -1,0 +1,20 @@
+{
+    "name": "srg-client-hunt",
+    "version": "1.0.0",
+    "description": "publishing client-side app with github pages",
+    "main": "index.html",
+    "scripts": {
+      "start": "index.html",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/SaiGorla/srg-client-hunt.git"
+    },
+    "author": "Sai Rohith Gorla",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/SaiGorla/srg-client-hunt/issues"
+    }
+}
+    
