@@ -33,3 +33,7 @@ body {
   #error-message {
     color:orangered;
   }
+  footer{
+    text-align: center;
+    background-color: paleturquoise;
+  }
