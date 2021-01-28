@@ -1,4 +1,4 @@
-import locationsArray from '../init-locations.js';
+import locationsArray from '../init_locations.js';
 
 let locationElement = document.getElementById("location");
 
