@@ -1,13 +1,13 @@
  export default [
     {
         Name: 'Horizons Apartments',
-        Latitude: 40.356134,
-        Longitude:-94.882394
+        Latitude: 40.357685,
+        Longitude:-94.882675
     },
     {
-        Name: 'Village O Apartments',
-        Latitude: 40.356156,
-        Longitude:-94.882551
+        Name: 'Bearcats Stadium',
+        Latitude: 40.350684,
+        Longitude:-94.886094
     }
 
 ];
