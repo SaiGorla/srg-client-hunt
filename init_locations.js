@@ -1,15 +1,13 @@
-// export default object with the initialization data
-
-export default [
-  {
-    Name: 'Horizons Apartments',
-    Latitude: 27.2046,
-    Longitude: 77.4977
-},
-{
-    Name: 'Forest village Apartments',
-    Latitude: 40.3562558,
-    Longitude: -94.8863981
-}
+ export default [
+    {
+        Name: 'Horizons Apartments',
+        Latitude: 40.383849,
+        Longitude: -94.887384
+    },
+    {
+        Name: 'Village O Apartments',
+        Latitude: 40.360970,
+        Longitude: -94.888242
+    }
 
 ];
