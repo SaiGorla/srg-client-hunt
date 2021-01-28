@@ -3,8 +3,8 @@
 export default [
   {
     Name: 'Horizons Apartments',
-    Latitude: 40.3559640,
-    Longitude: -94.8813817
+    Latitude: 27.2046,
+    Longitude: 77.4977
 },
 {
     Name: 'Forest village Apartments',
