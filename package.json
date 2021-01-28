@@ -4,8 +4,8 @@
     "description": "publishing client-side app with github pages",
     "main": "index.html",
     "scripts": {
-      "start": "index.html",
-      "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "index.html"
     },
     "repository": {
       "type": "git",
