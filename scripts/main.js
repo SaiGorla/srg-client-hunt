@@ -36,6 +36,9 @@ async function locationHandler() {
     locationsArray.forEach(function (value) {
         if (isInside(value.Latitude, value.Longitude)) {
             document.getElementById("locationAnswer").innerHTML = value.Name;
+            const utterance = new SpeechSynthesisUtterance();
+            utterance.text = `Congratulations! You found the location ${value.Name}`;
+            window.speechSynthesis.speak(utterance);
             error = false;
         }
     });
@@ -43,7 +46,15 @@ async function locationHandler() {
     // In case of any error where if the device is not 30m range it displays error.
 
     if(error) {
-        document.getElementById("error-message").innerHTML = "You're not in range of 30m.";
+        //document.getElementById("error-message").innerHTML = "You're not in range of 30m.";
+      
+        let innerHTML = "Sorry You're not in the radius range.";
+        document.getElementById("error-message").innerHTML = innerHTML;
+        const utterance = new SpeechSynthesisUtterance(innerHTML);
+        //utterance.text = `Sorry You're not in the radius range.`;
+        window.speechSynthesis.speak(utterance);
+        
+
     } else {
         document.getElementById("error-message").innerHTML = "";
     }
@@ -56,7 +67,7 @@ async function locationHandler() {
 function isInside(questLat, questLon) {
     let distance = distanceBetweenLocations(questLat, questLon);
     console.log("distance: " + distance);
-    if (distance < 10) {
+    if (distance < 30) {
         return true;
     } else {
         return false;
